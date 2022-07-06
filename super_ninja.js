@@ -25,6 +25,9 @@ class Ninja {
 class Sensei extends Ninja {
     constructor(name) {
         super(name);
+        super.health = 200;
+        super.speed = 10;
+        super.strength = 10;
         this.wisdom = 10;
     }
 
