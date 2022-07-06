@@ -29,7 +29,8 @@ class Sensei extends Ninja {
     }
 
     speakWisdom() {
-        console.log(this.wisdom);
+        super.drinkSake();
+        console.log("Live every week like it's Shark Week");
     }
 }
 
